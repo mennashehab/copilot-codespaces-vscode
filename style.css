@@ -1,0 +1,202 @@
+
+ body{
+     font-family: Poppins, sans-serif;
+     background-color: rgb(229, 212, 192);
+     color: rgb(2, 1, 0);
+   margin-left: 150px;
+   margin-right: 150px;
+}
+
+@media screen and ( max-width:400px)
+{
+
+}  
+
+.logo img{
+    width: 30%;
+    border-radius: 50%;
+    text-align: center;
+    padding: 20px 20px;
+    margin-left: 400px;
+    
+   
+    
+    
+}
+
+.cta-button {
+    background-color: rgb(195, 195, 195);
+   color: white;
+   padding: 15px 30px;
+   text-align: center;
+   display: inline-block;
+   border: none;
+   font-size: 16px;
+text-decoration: none;
+border-radius: 25px;
+margin-bottom: 10%;
+cursor: pointer;
+} 
+
+
+h1{
+    color: whitesmoke;
+  text-align: center;
+  font-weight: bolder;
+}
+ .course-card1 img{
+    max-height: 300px;
+    max-width: 500px;
+ }
+ .course-card2 img{
+    max-width: 300px;
+    max-height: 500px;
+ }
+ .course-card3 img{
+    max-width: 300px;
+    max-height: 700px;  
+ }
+ .Home{
+   text-decoration: none; 
+   background-color: rgb(193, 199, 205);
+   color: white;
+ }
+ .Courses{
+    text-decoration: none;
+    background-color: rgb(193, 199, 205);
+   color: white;
+ }
+ .Aboutus{
+   text-decoration: none; 
+   background-color: rgb(193, 199, 205);
+   color: white;
+ }
+ .contactus{
+    text-decoration: none;
+    background-color: rgb(193, 199, 205);
+   color: white;
+ }
+ h2{
+    color: darkgray;
+ }
+ h3{
+    color: rgb(107, 99, 99);
+    margin-top: 10%;
+ }
+ 
+ 
+
+   
+   
+    
+ 
+ ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #bfb0b0;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    text-align: center;
+  }
+  
+  li { 
+    float: left;
+    width: 25%;
+     
+  }
+  
+  li a {
+  
+display: block;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+    
+  }
+  .clear{
+    clear: both;
+  }
+  
+  
+  
+  li a:hover {
+    background-color:rgb(234, 234, 221);
+    font-size: larger;
+}
+    
+
+    .course-card1{
+      margin-top: 10%;
+      margin-bottom: 10%;
+      margin-right:40% ;
+      margin-left: 40%;
+     
+    }
+    .course-card2{
+      margin-top : 20%;
+      margin-bottom: 10%;
+      margin-right:40% ;
+      margin-left: 40%;
+    }
+    .course-card3{
+      margin-top: 10%;
+      margin-right:40% ;
+      margin-left: 40%;
+    }
+    cta-button button:hover {
+      background-color: antiquewhite;
+    }
+    .contact h2{
+font-size: xx-large;
+margin-bottom: 20px;
+color:darkgray;
+
+    }
+    .contact p{
+      margin-bottom: 30px;
+      color:black ;
+    }
+    .contact label{
+display: block;
+margin-bottom: 8px;
+font-weight: bold;
+color: rgb(74, 33, 3);
+    }
+    .contact textarea,
+    .contact input {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 20px;
+      border: 1px solid #bfb0b0da ;
+      border-radius: 4px;
+      font-size: larger;
+    }
+    .contact button {
+      background-color: beige;
+      color: chocolate;
+      border: none;
+      padding: 10px 20px ;
+      font-size: large;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .contact button:hover {
+      background-color: rgb(184, 218, 218);
+      font-size: 20px;
+    }
+    .c{
+      text-align: center;
+    }
+   .cta-button
+    a:hover {
+    background-color: rgb(138, 135, 132);
+    font-size: 20px;
+   }
+   .l {
+    font-weight: bolder;
+   }
